@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+body {
+	background-color: #EDCCF1;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-indent: 10px;
+}
+li {
+	margin-left: 25px;
+}
+
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	text-align: left;
+}
+
+a.link {
+	color: #680509;
+	text-decoration: none;
+}
+
+div.top {
+	left: 100px;
+	top: 50px;
+	right: 100px;
+	position: fixed;
+	max-width: 500px;
+	background-color: #EDCCF1;
+}
+
+div.mainbody {
+	position: absolute;
+	top: 200px;
+	max-width: 750px;
+}
+
+div.sidebar {
+	position: fixed;
+	left: 800px;
+	top: 100px;
+	max-width: 200px;
+}

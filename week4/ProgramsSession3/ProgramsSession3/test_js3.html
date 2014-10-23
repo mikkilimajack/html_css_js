@@ -1,0 +1,33 @@
+<html>
+<head><link href="mikkis_new_style_sheet.css" rel="stylesheet" type="text/css"></head>
+
+<script type="text/javascript">
+
+var input1;
+var input2;
+var number1;
+var number2
+
+input1 = window.prompt("Enter a number: ","0");
+input2 = window.prompt("Enter another number: ","0");
+number1 = parseInt(input1);
+number2 = parseInt(input2);
+
+if (number1 > number2)
+  {
+    document.writeln(input1 + " is larger than " + input2);
+  }
+else if (number1 == number2)
+  {
+    document.writeln(input1 + " is the same as " + input2);
+  }
+else
+  {
+    document.writeln(input1 + " is smaller than " + input2);
+  }
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<html>
+<head><link href="mikkis_new_style_sheet.css" rel="stylesheet" type="text/css"></head>
+
+<script type="text/javascript">
+
+var input1;
+var input2;
+var number1;
+var number2
+var answer1;
+var answer2;
+var answer3;
+
+input1 = window.prompt("Enter number1: ","0");
+input2 = window.prompt("Enter number2: ","0");
+number1 = parseInt(input1);
+number2 = parseInt(input2);
+
+answer1 = number1 + number2;
+answer2 = number1 - number2;
+answer3 = number1 * number2;
+
+document.writeln("The sum of those two numbers is: " + "<div class=\"answer\">" + answer1 + "</div>" + "<br><br>");
+document.writeln("The difference between those two numbers is: " + "<div class=\"answer\">" + answer2 + "</div>" + "<br><br>");
+document.writeln("The product of those two numbers is: " + "<div class=\"answer\">" + answer3 + "</div>" + "<br><br>");
+
+</script>

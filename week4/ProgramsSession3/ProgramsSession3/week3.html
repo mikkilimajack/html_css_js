@@ -1,0 +1,33 @@
+<script type="text/javascript">
+
+// Solution to week 3 class exercise
+// By Kingsley Sage
+
+var input1;
+var input2;
+var number1;
+var number2
+var x;
+
+input1 = window.prompt("Enter number1: ","0");
+input2 = window.prompt("Enter number2: ","0");
+number1 = parseInt(input1);
+number2 = parseInt(input2);
+
+if (number1 == 0)
+	{
+	if (number2 == 0)
+		{
+		document.writeln("Both numbers are zero!");
+		}
+	}
+else if (number1 > 0)
+	{
+	if (number2 > 0)
+		{
+		x = number1 + number2;
+		document.writeln("Answer: " + x);
+		}
+	}
+
+</script>

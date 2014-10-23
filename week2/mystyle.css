@@ -1,0 +1,84 @@
+/* Make the background a nice shade of blue */
+
+body {
+    background-color: #FF99FF;
+}
+
+/* Heading 1 with a black background and green text ... */
+
+h1 {
+	background-color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	font-style: normal;
+	color: #6600CC;
+	text-align: center;
+}
+
+h2 {
+	font-family: Calibri;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* Unordered lists in a plain style .. */
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Paragraph styling */
+
+p {
+	font-family: Calibri;
+	font-size: 20px;
+	
+}
+
+/* Unordered list items with a customised bullet feature ... */
+
+ul li {
+    font-family: Calibri;
+	font-size: 20px;
+	background-image: url(sqpurple.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 0px; 
+    padding-left: 80px; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Links */
+
+a {
+	text-align: center;
+	font-family: Calibri;
+	font-size: 40px;
+	
+}
+
+/* Table styles */
+
+table {
+	border-color: #000000;
+	
+}
+
+th {
+	font-family: Calibri;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+td {
+	text-align: left;
+	font-family: Calibri;
+	font-size: 20px;
+	
+}
